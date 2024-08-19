@@ -1,1 +1,1 @@
-print("hello monkeys")
+print(" ''hello monkeys,'' said Frieza. ")
