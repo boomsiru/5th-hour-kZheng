@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW1">
-      <change afterPath="$PROJECT_DIR$/HW2.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW2">
+      <change afterPath="$PROJECT_DIR$/HW3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
   "keyToString": {
     "Python.HW1.executor": "Run",
     "Python.HW2.executor": "Run",
+    "Python.HW3.executor": "Run",
     "Python.hello world.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -96,12 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1724090943733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added HW2">
+      <option name="closed" value="true" />
+      <created>1724263002716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724263002716</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW1" />
+    <MESSAGE value="added HW2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HW2" />
   </component>
 </project>
