@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW3">
-      <change afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="made changes to playground" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.HW1.executor": "Run",
-    "Python.HW2.executor": "Run",
-    "Python.HW3.executor": "Run",
-    "Python.Playground.executor": "Run",
-    "Python.hello world.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Playground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello world.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -114,7 +111,55 @@
       <option name="project" value="LOCAL" />
       <updated>1724868104552</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added HW3">
+      <option name="closed" value="true" />
+      <created>1725473975455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725473975455</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added playground">
+      <option name="closed" value="true" />
+      <created>1725474001861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725474001861</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added playground">
+      <option name="closed" value="true" />
+      <created>1725474031124</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725474031124</updated>
+    </task>
+    <task id="LOCAL-00009" summary="made changes to playground">
+      <option name="closed" value="true" />
+      <created>1725559248603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725559248603</updated>
+    </task>
+    <task id="LOCAL-00010" summary="made changes to playground">
+      <option name="closed" value="true" />
+      <created>1725559262462</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725559262462</updated>
+    </task>
+    <task id="LOCAL-00011" summary="made changes to playground">
+      <option name="closed" value="true" />
+      <created>1725559311028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725559311028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +167,8 @@
     <MESSAGE value="added HW1" />
     <MESSAGE value="added HW2" />
     <MESSAGE value="added HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW3" />
+    <MESSAGE value="added playground" />
+    <MESSAGE value="made changes to playground" />
+    <option name="LAST_COMMIT_MESSAGE" value="made changes to playground" />
   </component>
 </project>
