@@ -3,10 +3,6 @@
 #assignment playground
 
 
-
-NumList = [1,2,3,4]
-NumList2 = [1,2,3,4]
-
 def add(x,y):
     return x+y
 
@@ -16,8 +12,10 @@ def subtract (x,y):
 def multiply (x,y):
     return x*y
 
-def divide (x,y):
-    return x/y
+def divide(x, y):
+    if y == 0:
+        return "Error: Division by zero is not allowed."
+    return x / y
 
 print("Select operation.")
 print("1.Add")
@@ -47,13 +45,27 @@ while True:
     elif choice == '3':
         print(num1, "*", num2, "=", multiply(num1, num2))
 
-    elif choice == '4':
-        print(num1, "/", num2, "=", divide(num1, num2))
 
-    nextcalc = input("Wanna do another calculation (yes/no):")
-    nextcalc =  nextcalc.lower()
+    elif choice == '4':
+
+        result = divide(num1, num2)
+
+        if isinstance(result, str):  # check if the result is an error message
+
+            print(result)
+
+        else:
+
+            print(f"{num1} / {num2} = {result}")
+    else:
+        print("Invalid input. Please select a valid operation.")
+
+    nextcalc = input("Do you want to do another calculation? (yes/no): ").lower()
     if  nextcalc == "no":
         break
+    elif nextcalc != "yes":
+        print("Invalid input. Please enter 'yes' or 'no'.")
+
     else:
         print("Invalid Input")
 
