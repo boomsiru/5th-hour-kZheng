@@ -67,6 +67,6 @@ while True:
         print("Invalid input. Please enter 'yes' or 'no'.")
 
     else:
-        print("Invalid Input")
+        print("ok monke")
 
 
