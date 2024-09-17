@@ -59,25 +59,25 @@ def display_stats(stats):
 
 
 
-def update_damage(stats):
-        display_stats(stats)
+def update_character_stats(stats):
+    display_stats(stats)
 
-        character_name = input("\nEnter the name of the character to update: ").strip().lower()
-        actual_name = normalized_dict.get(character_name)
+    character_name = input("\nEnter the name of the character to update: ").strip().lower()
+    actual_name = normalized_dict.get(character_name)
 
-        if actual_name:
-            print(f"Updating 'Damage' for {actual_name}:")
+    if actual_name:
+        print(f"Updating stats for {actual_name}:")
+        for attr in stats[actual_name].keys():
             while True:
                 try:
-                    new_damage = int(
-                        input(f"  Enter new value for Damage (current value is {stats[actual_name]['Damage']}): "))
-                    stats[actual_name]['Damage'] = new_damage
+                    new_value = int(input(f"  Enter new value for {attr} (current value is {stats[actual_name][attr]}): "))
+                    stats[actual_name][attr] = new_value
                     break
                 except ValueError:
                     print("Invalid input. Please enter an integer value.")
-            print(f"'Damage' for {actual_name} updated successfully.")
-        else:
-            print("Character not found.")
+        print(f"Stats for {actual_name} updated successfully.")
+    else:
+        print("Character not found.")
 
 
 
@@ -94,7 +94,8 @@ def main():
         if choice == "1":
             display_stats(MonkeyDict)
         elif choice == "2":
-            update_damage(MonkeyDict)
+            update_character_stats(
+                MonkeyDict)
         elif choice == "3":
             print("Exiting...")
             break

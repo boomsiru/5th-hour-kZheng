@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added Hw 4">
-      <change afterPath="$PROJECT_DIR$/Seanario 1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added scenario 1">
+      <change beforePath="$PROJECT_DIR$/Scenario 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.Playground.executor": "Run",
+    "Python.Scenario 1.executor": "Run",
     "Python.Seanario 1.executor": "Run",
     "Python.hello world.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -204,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726243506397</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added scenario 1">
+      <option name="closed" value="true" />
+      <created>1726595447509</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726595447510</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added scenario 1">
+      <option name="closed" value="true" />
+      <created>1726595452796</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726595452796</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +244,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Playground.py" />
     <MESSAGE value="changes to playground" />
     <MESSAGE value="added Hw 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Hw 4" />
+    <MESSAGE value="added scenario 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scenario 1" />
   </component>
 </project>
