@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added scenario 1">
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added changes scenario 1">
+      <change afterPath="$PROJECT_DIR$/Senario 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenario 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +57,7 @@
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
     "Python.Seanario 1.executor": "Run",
+    "Python.Senario 2.executor": "Run",
     "Python.hello world.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -220,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726595452796</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added changes scenario 1">
+      <option name="closed" value="true" />
+      <created>1726595969507</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726595969507</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +256,7 @@
     <MESSAGE value="changes to playground" />
     <MESSAGE value="added Hw 4" />
     <MESSAGE value="added scenario 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scenario 1" />
+    <MESSAGE value="added changes scenario 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changes scenario 1" />
   </component>
 </project>
