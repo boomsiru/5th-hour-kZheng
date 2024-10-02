@@ -1,4 +1,4 @@
-#Name:Kevin
+#Name:Kevin Zheng
 #Class: 5th Hour
 #Assignment: HW5
 
@@ -12,11 +12,6 @@ print("Hello World!")
 num1list = [4,1,2,]
 
 
-if num1list[2] > num1list[0] and num1list[2] > num1list[1]:
-    print(num1list[2], "monkes in a cage")
-elif num1list[0] > num1list[1] and num1list[0] > num1list[2]:
-    print(num1list[0], "monkes in a cage")
-elif num1list[2] > num1list[1] and num1list[2] > num1list[0]:
-    print(num1list[2], "monkes in a cage")
 
-else: print("stupid monke")
+print(max(num1list), "monkes in a cage")
+
