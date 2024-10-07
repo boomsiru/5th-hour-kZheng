@@ -27,7 +27,7 @@
 
 print("Hello World!")
 
-num = 2
+num = 4
 
 
 if num % 2 == 0:
@@ -35,12 +35,16 @@ if num % 2 == 0:
         print(num//2)
         print(num/3)
 
-    elif num % 2 ==0:
+    else:
         print("That number is not divisible by 3")
         print(num//2)
 
-    else: num % 3 == 0
-    print("Cannot be divided by 3")
-    print(num//3)
 else:
-       print("that number neither is divisible by 2 or 3")
+    if num % 3 == 0:
+        print("Cannot be divided by 2")
+        print(num//3)
+
+
+
+    else:
+        print("that number neither is divisible by 2 or 3")

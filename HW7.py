@@ -31,6 +31,8 @@ else:
         exit()
     if login == False:
         print("You are missing login")
+        exit()
+
 
 print(NumbOfLogin)
 
