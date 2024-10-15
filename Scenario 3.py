@@ -84,7 +84,7 @@ Astarion = Character("Astarion", rolld6()+rolld6(), 10, 14)
 Shadowheart = Character("Shadowheart", rolld10()+2, 10, 14)
 Gale = Character("Gale", rolld6()+rolld6(), 8,  14)
 Laezel = Character("Laezel", rolld6()+2, 12, 17)
-CuriousGeorge = Character("Curious George", 100, 100, 20)
+CuriousGeorge = Character("Curious George", rolld20() + 100, 100, 20)
 
 def perform_attacks(characters, target):
     for character in characters:
@@ -161,7 +161,7 @@ MonkeyDict = {
         "Health" : 100,
         "Damagemod" : 100,
         "AC" : 17,
-        "dmgroll" : rolld20() + 10
+        "dmgroll" : rolld20() + 100
     }
 }
 
