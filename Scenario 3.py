@@ -76,9 +76,14 @@ class Character:
             print( self.name, "is dead")
             exit()
 
+
         if target.health <= 0:
             print( target.name, "is dead")
             exit()
+        else:
+            print(target.name, "is still alive")
+
+
 
 Astarion = Character("Astarion", rolld6()+rolld6(), 10, 14)
 Shadowheart = Character("Shadowheart", rolld10()+2, 10, 14)
