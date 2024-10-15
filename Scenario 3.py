@@ -65,15 +65,19 @@ class Character:
         self.AC = AC
     def attack(self, target):
         attkdmg = self.attack_power - target.AC
-        vhealth = attkdmg - self.health
+
         if attkdmg <= 0:
             attkdmg = 0
         print(f"{self.name} attacks {target.name} for {attkdmg} damage!")
-        if CuriousGeorge vhealth <= 0:
-            print({self.name}, "is dead")
-        if Laezel vhealth <= 0:
-            print({self.name}, "is dead")
 
+        target.health -= attkdmg
+
+        if self.health <= 0:
+            print( self.name, "is dead")
+            exit()
+
+        if target.health <= 0:
+            print( target.name, "is dead")
 
 Astarion = Character("Astarion", rolld6()+rolld6(), 10, 14)
 Shadowheart = Character("Shadowheart", rolld10()+2, 10, 14)
