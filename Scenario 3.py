@@ -89,7 +89,7 @@ class Character:
 Astarion = Character("Astarion", rolld6()+rolld6(), 10, 14, rolld20()+4)
 Shadowheart = Character("Shadowheart", rolld10()+2, 10, 14, rolld20()+3)
 Gale = Character("Gale", rolld6()+rolld6(), 8,  14, rolld20()+2)
-Laezel = Character("Laezel", rolld6()+ 20, 12, 17, rolld20()+20)
+Laezel = Character("Laezel", rolld6()+ 20, 12, 17, rolld20()+6)
 CuriousGeorge = Character("Curious George", rolld20() + 100, 100, 20, rolld20()+100)
 
 def perform_attacks(characters, target):
@@ -103,7 +103,7 @@ partyDictionary = {
         "Background" : "Soldier",
         "Health" : 12,
         "AC" : 17,
-        "Damagemod" : 6,
+        "attkmod" : 6,
         "dmgroll": rolld6() + rolld6() + 3
     },
     "Shadowheart" : {
@@ -112,7 +112,7 @@ partyDictionary = {
         "Background" : "Acolyte",
         "Health" : 10,
         "AC" : 14,
-        "Damagemod" : 3,
+        "attkmod" : 3,
         "dmgroll": rolld6() + 2
     },
     "Gale" : {
@@ -121,7 +121,7 @@ partyDictionary = {
         "Background" : "Sage",
         "Health" : 8,
         "AC" : 14,
-        "Damagemod" : 5,
+        "attkmod" : 5,
         "dmgroll": rolld6() + 2
     },
     "Astarion" : {
@@ -130,7 +130,7 @@ partyDictionary = {
         "Background" : "Charlatan",
         "Health" : 10,
         "AC" : 14,
-        "Damagemod" : 4,
+        "attkmod" : 4,
         "dmgroll": rolld10()
     }
 }
@@ -140,32 +140,32 @@ partyDictionary = {
 MonkeyDict = {
     "Diddy Kong": {
         "Health" : 10,
-        "Damagemod" : 2,
+        "attkmod" : 2,
         "AC" : 10,
         "dmgroll": rolld6() + 1
     },
     "Dixie Kong": {
         "Health" : 10,
-        "Damagemod" : 3,
+        "attkmod" : 3,
         "AC" : 12,
         "dmgroll": rolld6() + 1
     },
     "Donkey Kong": {
         "Health" : 20,
-        "Damagemod" : 10,
+        "attkmod" : 10,
         "AC" : 14,
         "dmgroll": rolld10() + 3
     },
     "King Kong" : {
         "Health" : 40,
-        "Damagemod" : 20,
+        "attkmod" : 20,
         "AC" : 15,
         "dmgroll":  rolld10() + 5
 
     },
     "Curious George" : {
         "Health" : 100,
-        "Damagemod" : 100,
+        "attkmod" : 100,
         "AC" : 17,
         "dmgroll" : rolld20() + 100
     }
