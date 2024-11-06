@@ -25,6 +25,7 @@ def spin():
 
 
 
+
 while input("Press y to spin for an aura ").lower() == "y":
        num = random.randint(1, 1000)
        print(num)
