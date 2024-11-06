@@ -22,6 +22,6 @@ for a in ANIMAL:
     print(a)
 #4. Create a for loop that spells out a word you input backwards.
 #(HINT: Google "How to reverse a string in Python")
-word = "monke" [::-1]
+word = input("please enter word (it should be monke)") [::-1]
 for b in word:
     print(b)
