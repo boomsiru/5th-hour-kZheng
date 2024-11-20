@@ -38,7 +38,7 @@ for q in range (0, players):
             sum += ratings
             break
 
-print(sum/players)
+print("The avergae rating was",sum/players)
 
 
 
