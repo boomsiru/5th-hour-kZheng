@@ -15,9 +15,15 @@ players = 0
 sum = 0
 players = int(input("please enter number of players"))
 
-if 1> players:
-    print("monke")
-    exit()
+while True:
+    try:
+        players = int(input("How many players are in this game: "))
+        if players < 1:
+            players = int("g")
+        else:
+            break
+    except ValueError:
+        print("That is not a valid number of players.\n")
 
 
 
