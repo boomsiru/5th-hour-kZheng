@@ -15,7 +15,7 @@ players = 0
 sum = 0
 players = int(input("please enter number of players"))
 
-if 1> players or players >5:
+if 1> players:
     print("monke")
     exit()
 
