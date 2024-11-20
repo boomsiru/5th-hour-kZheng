@@ -13,7 +13,7 @@
 ratings = 0
 players = 0
 sum = 0
-players = int(input("please enter number of players"))
+
 
 while True:
     try:
