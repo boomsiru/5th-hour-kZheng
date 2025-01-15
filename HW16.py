@@ -2,6 +2,9 @@
 #Class: 5th Hour
 #Assignment: HW16
 import random
+import time
+
+
 #1. Create a def function that plays a single round of rock, paper, scissors where the user inputs
 #1 for rock, 2 for paper, or 3 for scissors and compares it to a random number generated to serve
 #as the "opponent's hand".
@@ -26,9 +29,11 @@ def Jaken():
             choice_name = 'Scissors'
 
         # Print user choice
-        print('User choice is:', choice_name)
-        print("Now it's Computer's Turn...")
 
+        print('User choice is:', choice_name)
+        time.sleep(.5)
+        print("Now it's Computer's Turn...")
+        time.sleep(.7)
         # Computer chooses randomly any number among 1, 2, and 3
         comp_choice = random.randint(1, 3)
 
@@ -41,7 +46,9 @@ def Jaken():
             comp_choice_name = 'Scissors'
 
         print("Computer choice is:", comp_choice_name)
+        time.sleep(.5)
         print(choice_name, 'vs', comp_choice_name)
+
 
         # Determine the winner
         if choice == comp_choice:
