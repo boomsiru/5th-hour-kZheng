@@ -6,10 +6,7 @@ import random
 def monke():
     print("hello monke")
 #2. Create a def function that calculates the average of three numbers.
-def AvgmMonke():
-    a= random.randint(1,3)
-    b = random.randint(1, 3)
-    c = random.randint(1, 3)
+def AvgmMonke(a,b,c):
     avg = a+b+c / 3
     print(avg)
 
@@ -17,17 +14,18 @@ def AvgmMonke():
 #prints the name of the third animal.
 def Monke_list(*monkey):
     print("The 3rd monke is", monkey[2])
-Monke_list("Ape", "Chimp", "monke", "Kong", "fraud")
+
 
 
 #4. Create a def function that loops from 1 to the number put in the argument.
-def monkeloop():
-    t = int(input("please enter number"))
+def monkeloop(t):
+
     for x in range(1,t+1):
         print(x)
 
 
 #5. Call all of the functions created in 1 - 4 with relevant arguments.
-monkeloop()
+monkeloop(t = int(input("please enter number")))
 monke()
-AvgmMonke()
+AvgmMonke(random.randint(1,3), b = random.randint(1, 3), c = random.randint(1, 3) )
+Monke_list("Ape", "Chimp", "monke", "Kong", "fraud")
