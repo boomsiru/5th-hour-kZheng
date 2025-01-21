@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW 15 and 16">
-      <change beforePath="$PROJECT_DIR$/HW15.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW15.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added changes to HW 15">
+      <change afterPath="$PROJECT_DIR$/HW17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Python.HW14.executor": "Run",
     "Python.HW15.executor": "Run",
     "Python.HW16.executor": "Run",
+    "Python.HW17.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -92,22 +94,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830976429</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added HW2">
-      <option name="closed" value="true" />
-      <created>1724263002716</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1724263002716</updated>
-    </task>
-    <task id="LOCAL-00005" summary="added HW3">
-      <option name="closed" value="true" />
-      <created>1724868104552</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1724868104552</updated>
     </task>
     <task id="LOCAL-00006" summary="added HW3">
       <option name="closed" value="true" />
@@ -485,7 +471,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736882201498</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="added changes to HW 15">
+      <option name="closed" value="true" />
+      <created>1736966256400</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1736966256400</updated>
+    </task>
+    <task id="LOCAL-00054" summary="added changes to HW 15">
+      <option name="closed" value="true" />
+      <created>1736966641713</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1736966641713</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added playground" />
     <MESSAGE value="made changes to playground" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Playground.py" />
     <MESSAGE value="changes to playground" />
@@ -525,6 +526,7 @@
     <MESSAGE value="added scenario 4" />
     <MESSAGE value="added changes to scenario 4" />
     <MESSAGE value="added HW 15 and 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW 15 and 16" />
+    <MESSAGE value="added changes to HW 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changes to HW 15" />
   </component>
 </project>
