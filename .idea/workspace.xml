@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW18">
-      <change afterPath="$PROJECT_DIR$/HW18.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW19">
+      <change afterPath="$PROJECT_DIR$/Secenario 6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenario 7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     "Python.HW16.executor": "Run",
     "Python.HW17.executor": "Run",
     "Python.HW18.executor": "Run",
+    "Python.HW19.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -72,9 +74,11 @@
     "Python.Scenario 1.executor": "Run",
     "Python.Scenario 3.executor": "Run",
     "Python.Seanario 1.executor": "Run",
+    "Python.Secenario 6.executor": "Run",
     "Python.Senario 2.executor": "Run",
     "Python.hello world.executor": "Run",
     "Python.scenario 4.executor": "Run",
+    "Python.scenario 7.executor": "Run",
     "Python.something kool.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -95,14 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830976429</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added playground">
-      <option name="closed" value="true" />
-      <created>1725474031124</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1725474031124</updated>
     </task>
     <task id="LOCAL-00009" summary="made changes to playground">
       <option name="closed" value="true" />
@@ -488,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738176342770</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added HW19">
+      <option name="closed" value="true" />
+      <created>1738348902436</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1738348902436</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes to playground" />
     <MESSAGE value="added Hw 4" />
     <MESSAGE value="added scenario 1" />
     <MESSAGE value="added changes scenario 1" />
@@ -528,6 +531,7 @@
     <MESSAGE value="added changes to HW 15" />
     <MESSAGE value="added HW17" />
     <MESSAGE value="added HW18" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW18" />
+    <MESSAGE value="added HW19" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HW19" />
   </component>
 </project>
