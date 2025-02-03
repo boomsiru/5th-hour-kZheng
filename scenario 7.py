@@ -4,7 +4,7 @@
 import random
 #Import all of Scenario 6 here
 statList = []
-
+from Secenario6 import roll
 def roll():
     for i in range (0,6):
         stat1 = [random.randint(1,6),random.randint(1,6),random.randint(1,6),random.randint(1,6)]
@@ -14,9 +14,7 @@ def roll():
         print(stats)
         statList.append(stats)
 roll()
-
 print(statList)
-
 listAverage = 0
 
 def final_average():
