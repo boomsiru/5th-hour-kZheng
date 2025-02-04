@@ -8,7 +8,7 @@ import random
 #He wants you to make a function that rolls 4 six-sided dice (d6), sorts them from highest to lowest, and then adds the
 #highest 3 together. He then wants you to add that result to a list outside the function. He wants you to run that function
 #5 more times (six times total) and print all six stats.
-statList = []
+StatList = []
 def roll():
     for i in range (0,6):
         stat1 = [random.randint(1,6),random.randint(1,6),random.randint(1,6),random.randint(1,6)]
@@ -16,9 +16,9 @@ def roll():
         stat1.sort(reverse=True)
         stats = stat1[0]+stat1[1]+stat1[2]
         print(stats)
-        statList.append(stats)
+        StatList.append(stats)
 roll()
-print(statList)
+print(StatList)
 
 #Once that is done, to ensure that the average of the statblock is fair (somewhere roughly between 12-13), he wants you
 #to plug it into a calculator (Scenario 7) and print the average.
