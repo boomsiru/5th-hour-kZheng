@@ -26,7 +26,3 @@ def monkeloop(t):
 
 #5. Call all of the functions created in 1 - 4 with relevant arguments.
 
-monke()
-AvgmMonke(a = random.randint(1,3), b = random.randint(1, 3), c = random.randint(1, 3) )
-Monke_list("Ape", "Chimp", "monke", "Kong", "fraud")
-monkeloop(t = int(input("please enter number")))
