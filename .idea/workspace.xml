@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW20">
-      <change afterPath="$PROJECT_DIR$/playground rpg.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="changes to playgrounds">
+      <change afterPath="$PROJECT_DIR$/AI playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.AI playground.executor": "Run",
     "Python.HW1.executor": "Run",
     "Python.HW10.executor": "Run",
     "Python.HW11.executor": "Run",
@@ -102,22 +102,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830976429</updated>
-    </task>
-    <task id="LOCAL-00015" summary="changes to playground">
-      <option name="closed" value="true" />
-      <created>1725646665022</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1725646665022</updated>
-    </task>
-    <task id="LOCAL-00016" summary="added Hw 4">
-      <option name="closed" value="true" />
-      <created>1726243506397</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1726243506397</updated>
     </task>
     <task id="LOCAL-00017" summary="added scenario 1">
       <option name="closed" value="true" />
@@ -495,7 +479,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740077813156</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="changes to playgrounds">
+      <option name="closed" value="true" />
+      <created>1740681723136</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1740681723136</updated>
+    </task>
+    <task id="LOCAL-00065" summary="changes to playgrounds">
+      <option name="closed" value="true" />
+      <created>1740681771237</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1740681771237</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +510,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added  scenario 2" />
     <MESSAGE value="added changes to HW 5 and 6" />
     <MESSAGE value="added changes to HW 7" />
     <MESSAGE value="added changes to HW 6" />
@@ -535,6 +534,7 @@
     <MESSAGE value="added changes to scenario 7" />
     <MESSAGE value="added changes to HW19" />
     <MESSAGE value="added HW20" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW20" />
+    <MESSAGE value="changes to playgrounds" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes to playgrounds" />
   </component>
 </project>
