@@ -26,7 +26,7 @@ sportsfr = {
 #2. Create a def function that pulls the values from the dictionary as arguments, adds together the
 #players of all three sports, and prints the sum
 def adding(a,b,c):
-    print(a+b+c)
+    print("total is",a+b+c)
 
 #3. Call the function with arguments here\
 adding(sportsfr["sport1"]["players"],sportsfr["sport2"]["players"],sportsfr["sport3"]["players"])
