@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="changes to playgrounds">
-      <change afterPath="$PROJECT_DIR$/AI playground.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added Ai playground">
+      <change afterPath="$PROJECT_DIR$/HW21.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,7 @@
     "Python.HW19.executor": "Run",
     "Python.HW2.executor": "Run",
     "Python.HW20.executor": "Run",
+    "Python.HW21.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.HW5.executor": "Run",
@@ -102,14 +103,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830976429</updated>
-    </task>
-    <task id="LOCAL-00017" summary="added scenario 1">
-      <option name="closed" value="true" />
-      <created>1726595447509</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1726595447510</updated>
     </task>
     <task id="LOCAL-00018" summary="added scenario 1">
       <option name="closed" value="true" />
@@ -495,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740681771237</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="added Ai playground">
+      <option name="closed" value="true" />
+      <created>1740683485637</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1740683485637</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added changes to HW 5 and 6" />
     <MESSAGE value="added changes to HW 7" />
     <MESSAGE value="added changes to HW 6" />
     <MESSAGE value="added scenario 3" />
@@ -535,6 +535,7 @@
     <MESSAGE value="added changes to HW19" />
     <MESSAGE value="added HW20" />
     <MESSAGE value="changes to playgrounds" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes to playgrounds" />
+    <MESSAGE value="added Ai playground" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Ai playground" />
   </component>
 </project>
