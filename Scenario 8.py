@@ -53,6 +53,10 @@ Shadowheart = Character("Shadowheart", rolld10()+2, 10, 14, rolld20()+3)
 Gale = Character("Gale", rolld6()+rolld6(), 8,  14, rolld20()+2)
 Laezel = Character("Laezel", rolld6()+ 20, 12, 17, rolld20()+6)
 CuriousGeorge = Character("Curious George", rolld20() + 100, 100, 20, rolld20()+100)
+DiddyKong = Character("DiddyKong", rolld6()+2, 10, 10, rolld20()+1)
+KingKong = Character("KingKong", rolld10()+3, 40, 15, rolld20()+3)
+DonkeyKong = Character("DonkeyKong", rolld10() + 4, 20, 14, rolld20()+4)
+DixieKong = Character("DixieKong", rolld6() + 1, 10, 12, rolld20()+2)
 
 def perform_attacks(characters, target):
     for character in characters:
