@@ -937,7 +937,7 @@ def useSpell():
                 UsedSpell = True
                 MgcDamageSpell = True
                 print("You dropped a Nuke.")
-                Damage = (Strength + Magic)
+                Damage = (Strength + Magic) * 3/2
             else:
                 print("You do not have enough mana.")
     elif Spell.lower() == "fishman" and FishmanMartialArts:
@@ -964,7 +964,7 @@ def useSpell():
                 UsedSpell = True
                 MgcDamageSpell = True
                 print("You used Kame.")
-                Damage = (Strength + Magic)
+                Damage = (Strength + Magic) + 2
     if UsedSpell:
         print(f"Your {Spell.lower()} spell was successful. You now have {Mana} mana.")
         if MgcDamageSpell:

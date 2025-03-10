@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW21">
-      <change afterPath="$PROJECT_DIR$/HW22.py" afterDir="false" />
+    <list default="true" id="36118372-f5a6-4c7f-8609-0ee8a7f25572" name="Changes" comment="added HW22">
+      <change afterPath="$PROJECT_DIR$/HW23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scenario 8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW22.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Playground rpg.py" beforeDir="false" afterPath="$PROJECT_DIR$/Playground rpg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenario 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scenario 3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +70,7 @@
     "Python.HW20.executor": "Run",
     "Python.HW21.executor": "Run",
     "Python.HW22.executor": "Run",
+    "Python.HW23.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.HW5.executor": "Run",
@@ -76,6 +81,7 @@
     "Python.Playground.executor": "Run",
     "Python.Scenario 1.executor": "Run",
     "Python.Scenario 3.executor": "Run",
+    "Python.Scenario 8.executor": "Run",
     "Python.Seanario 1.executor": "Run",
     "Python.Secenario 6.executor": "Run",
     "Python.Secenario6.executor": "Run",
@@ -104,14 +110,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830976429</updated>
-    </task>
-    <task id="LOCAL-00020" summary="added  scenario 2">
-      <option name="closed" value="true" />
-      <created>1727201273232</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1727201273232</updated>
     </task>
     <task id="LOCAL-00021" summary="added  scenario 2">
       <option name="closed" value="true" />
@@ -497,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741027917388</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="added HW22">
+      <option name="closed" value="true" />
+      <created>1741287031366</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1741287031367</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added changes to HW 6" />
     <MESSAGE value="added scenario 3" />
     <MESSAGE value="added changes to scenario 3" />
     <MESSAGE value="added changes to HW8" />
@@ -537,6 +542,7 @@
     <MESSAGE value="changes to playgrounds" />
     <MESSAGE value="added Ai playground" />
     <MESSAGE value="added HW21" />
-    <option name="LAST_COMMIT_MESSAGE" value="added HW21" />
+    <MESSAGE value="added HW22" />
+    <option name="LAST_COMMIT_MESSAGE" value="added HW22" />
   </component>
 </project>

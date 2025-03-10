@@ -43,7 +43,6 @@ import math
 
 import math
 import random
-from tkinter import mainloop
 
 
 

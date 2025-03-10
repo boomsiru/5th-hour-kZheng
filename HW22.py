@@ -29,4 +29,4 @@ del apple
 try:
     print(apple.weight)
 except:
-    print("there is no apple")
+    print("there is no apple monke")
